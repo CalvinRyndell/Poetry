@@ -118,8 +118,7 @@ fieldset {
     background-color: #D9C5AF;
     line-height: 1.6em;
     border-radius: 15px;
-    margin: 30px;
-    margin-left: 70px;
+    margin: 30px auto;
     background-image: url(grain.jpg);
     background-size: cover;
     background-position: center;
@@ -179,6 +178,6 @@ input[type="submit"]:hover {
 .submit {
     width: 310px;
     text-align: right;
-    margin-left: 90px;
+    margin: 40px auto;
     padding-bottom: 30px;
 }
