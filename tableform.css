@@ -6,6 +6,9 @@ html, body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
 }
 
 body {
@@ -24,12 +27,14 @@ li {
     list-style-image: url("poetry-icon.png");
     line-height: 1.6em;
     padding: 5px;
+    font-size: 1.4rem;
 }
 
 p {
     margin: 10px;
     padding: 5px;
     color: #fefefe;
+    font-size: 1.4rem;
 }
 
 h1 {
@@ -141,6 +146,9 @@ legend {
     font-size: 1.3em;
 }
 
+.op {
+    font-size: 1.4rem;
+}
 input[type="text"] {
     width: 120px;
     border: 1px solid #d6d6d6;
