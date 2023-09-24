@@ -92,7 +92,7 @@ tr.head th {
 }
 
 td {
-    text-shadow: 1px 1px 1px #ffffff;
+    text-shadow: 1px 1px 1px white;
 }
 
 tr.even td, tr.even th {
