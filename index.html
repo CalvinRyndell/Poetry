@@ -64,7 +64,8 @@
 							<label class="title" for="email">Your email:</label>
 							<input type="text" name="email" id="email"></p>
 						<p><label for="location" class="title">Your closest center:</label>
-							<select name="location" id="location">
+							<select name="location" id="location" onfocus="this.size=3;" onblur="this.size=0;"
+							onchange="this.size=1; this.blur()">
 								<option value="ny">New York</option>
 								<option value="il">Chicago</option>
 								<option value="ca">San Francisco</option>

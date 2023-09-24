@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Inclusive+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Inclusive+Sans&family=Major+Mono+Display&display=swap');
 
 html, body {
     width: 100%;
@@ -37,9 +37,9 @@ h1 {
     color: #32495b;
     margin-top: -15px;
     margin-bottom: -4px;
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Major Mono Display', monospace;
     font-size: 2.7em;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.03em;
     text-shadow: 3px 3px #b9b3b3;
     box-shadow: 0px 20px 30px #000000;
 }
@@ -115,10 +115,10 @@ fieldset {
     width: 310px;
     margin-top: 20px;
     border: 1px solid #d6d6d6;
-    background-color: #D9C5AF;
+    background-color: #D1B08F;
     line-height: 1.6em;
     border-radius: 15px;
-    margin: 30px auto;
+    margin: 30px;
     background-image: url(grain.jpg);
     background-size: cover;
     background-position: center;
@@ -137,7 +137,7 @@ fieldset {
 }
 legend {
     font-style: italic;
-    color: #fefefe;
+    color: #efefef;
     font-size: 1.5em
 }
 
@@ -151,12 +151,12 @@ input[type="text"] {
 input[type="text"]:focus,
 input[type="text"]:hover {
     background-color: #d0e2f0;
-    border: 1px solid #999999;
+    border: 3px solid #999999;
 }
 
 input[type="submit"] {
     border: 1px solid #006633;
-    background-color: #009966;
+    background-color: #af9378;
     color: #ffffff;
     border-radius: 5px;
     padding: 5px;
@@ -178,6 +178,55 @@ input[type="submit"]:hover {
 .submit {
     width: 310px;
     text-align: right;
-    margin: 40px auto;
+    margin-left: 80px;
+    margin-top: 5px;
     padding-bottom: 30px;
+}
+
+select {
+    border-radius: 5px;
+    background-color: #FFFBE7;
+    color: #666;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 0.9em;
+    background-image: url(grain.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+}
+
+input{
+    border-radius: 5px;
+    background-color: #fffbe7;
+    color: #666;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 0.9em;
+    margin: 5px;
+    background-image: url(grain.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+}
+
+span {
+    color: #efefef;
+    margin-left: 12px;
+}
+
+label{
+    color: #efefef;
+}
+
+option:nth-child(1):hover {
+    background-color: #EFD7C0;
+}
+
+option:nth-child(2):hover {
+    background-color: #EFE1C0;
+}
+
+option:nth-child(3):hover {
+    background-color: #EFD7C0;
 }
